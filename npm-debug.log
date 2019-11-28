@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/10.8.0/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/@jd/jnpm/node_modules/.bin/npm',
+1 verbose cli   '--userconfig=/Users/chenxinkai/.jnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--registry=http://registry.m.jd.com',
+1 verbose cli   'run',
+1 verbose cli   'asam',
+1 verbose cli   'clearbuild',
+1 verbose cli   'jdhome' ]
+2 info using npm@3.10.10
+3 info using node@v10.8.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/cxk/jd/source/xiaochengxu/alloth/package.json'
+5 verbose cwd /cxk/jd/source/xiaochengxu/alloth
+6 error Darwin 18.6.0
+7 error argv "/usr/local/Cellar/node/10.8.0/bin/node" "/usr/local/lib/node_modules/@jd/jnpm/node_modules/.bin/npm" "--userconfig=/Users/chenxinkai/.jnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--registry=http://registry.m.jd.com" "run" "asam" "clearbuild" "jdhome"
+8 error node v10.8.0
+9 error npm  v3.10.10
+10 error path /cxk/jd/source/xiaochengxu/alloth/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/cxk/jd/source/xiaochengxu/alloth/package.json'
+15 error enoent ENOENT: no such file or directory, open '/cxk/jd/source/xiaochengxu/alloth/package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
